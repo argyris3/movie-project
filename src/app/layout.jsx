@@ -1,7 +1,5 @@
+import Header from '@/components/Header';
 import './globals.css';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Movie App',
@@ -11,7 +9,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {/* header */}
+        <Header />
+        
+        {/* navbar */}
+
+        {/* searchbox*/}
+
+        {children}
+      </body>
     </html>
   );
 }
