@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="max-w-6xl mx-auto space-x-4 ">
+    <div className="max-w-6xl mx-auto space-x-4 p-4 ">
       <h1 className=" text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium mb-2 text-amber-500">About</h1>
       <p className="text-lg font-semibold md:text-xl lg:text-2xl xl:text-3xl tracking-wider  ">
         Καλως Ηρθατε στην Ταινιοθηκη μας..Αν ειστε παθιασμενος με τις ταινιες εδω ειναι το καταλληλο μερος.Η ιστιοσελιδα
