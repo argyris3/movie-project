@@ -19,9 +19,11 @@ export default function Card({ result }) {
           <h2 className="font-semibold truncate text-lg text-orange-500">{result.title || result.name}</h2>
           <p className="text-sm text-emerald-400 flex items-center gap-5">
             {result.release_date || result.first_air_date}
-            <FiThumbsUp className="h-5" />
-            {result.vote_count}
           </p>
+          <div className="flex items-center  gap-3 text-sky-400 ">
+            <FiThumbsUp className="h-5" /> {result.vote_count}
+            <p className="text-yellow-500 ml-10">{result.vote_average.toFixed(1)}</p>
+          </div>
         </div>
       </Link>
     </div>

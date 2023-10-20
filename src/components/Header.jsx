@@ -11,12 +11,12 @@ export default function Header() {
         <MenuItem title="HOME" address="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div className="flex items-center space-x-5">
+      <div className="flex items-center  space-x-5">
         <DarkModeSwitch />
         <Link href="/">
           <h2 className="tet-2xl">
             <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">Movie</span>
-            <span className="text-xl hidden sm:inline">App</span>
+            <span className="text-xl text-sky-300 hidden sm:inline">App</span>
           </h2>
         </Link>
       </div>

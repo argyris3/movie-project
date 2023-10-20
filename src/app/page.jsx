@@ -10,6 +10,7 @@ export default async function Home({ searchParams }) {
     }?api_key=${API_KEY}&language=en-US&page=1`,
     { next: { revalidate: 10000 } }
   );
+
   if (!res.ok) {
     throw new Error('failed to fetch data');
   }
